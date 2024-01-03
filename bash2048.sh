@@ -18,7 +18,7 @@ declare -i target=2048
 declare -i reload_flag=0
 declare config_dir="`pwd`/.bash2048"
 declare -i start_time
-#for colorizing numbers
+#for colorizing numbers and the numerals
 declare -a colors
 colors[2]=33         # yellow text
 colors[4]=32         # green text
